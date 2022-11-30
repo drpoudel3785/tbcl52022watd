@@ -11,6 +11,7 @@ if($count>=1){
         echo $row['cname']. " ";
         echo $row['description']. " ";
         echo $row['status']. " ";
+        echo "<img src=\"uploads/".$row['thumbimg']. "\" alt=".$row['cname']." width='100px'> ";
         echo  "<br/> ";
     }
 }
