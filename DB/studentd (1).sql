@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306:3306
--- Generation Time: Nov 30, 2022 at 05:12 AM
+-- Generation Time: Dec 05, 2022 at 05:16 AM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 8.0.11
 
@@ -43,7 +43,9 @@ CREATE TABLE `category` (
 INSERT INTO `category` (`id`, `cname`, `description`, `thumbimg`, `status`) VALUES
 (1, 'political', '', NULL, 1),
 (2, 'Health', 'Health', NULL, 1),
-(3, 'Technology', 'technology', NULL, 1);
+(3, 'Technology', 'technology', NULL, 1),
+(4, 'subash', 'subash', 'cropped-Subash_Pudasaini.jpg', 1),
+(5, 'test', 'test', 'viber_image_2022-10-11_17-06-27-246.jpg', 1);
 
 -- --------------------------------------------------------
 
@@ -102,7 +104,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `category`
 --
 ALTER TABLE `category`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT for table `users`
